@@ -13,7 +13,6 @@ window.onload = function () {
 	function emulateTyping(el, words) {
 		var $el = document.createElement(el);
 		var body = document.querySelector('body');
-		console.log(body);
 		body.append($el);
 
 		return new Promise((resolve, reject) => {
