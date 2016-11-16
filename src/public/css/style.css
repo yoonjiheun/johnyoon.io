@@ -153,6 +153,13 @@ hr {
 		width: 100%;
 	}
 
+	.headers {
+		padding: 25px 0px 0px 50px;
+		margin: 0;
+		float:left;
+		width: 0;
+	}
+
 	.navbar {
 		position: fixed;
 		right: 0;
